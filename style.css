@@ -1,0 +1,143 @@
+/*.row{
+  background-color: black;
+}
+.box{
+  height: 200px;
+  background-color: orange;
+}*/
+.navbar{
+  background-color: #222222 !important;
+  text-transform: uppercase;
+  text-color: orange;
+  text-weight:700;
+}
+.navbar a{
+  color: #fff !important;
+  opacity:2;
+}
+.navbar a:hover{
+  opacity:5;
+  background-color: #111111 !important;
+}
+
+.header{
+  height: 600px;
+  width:100%;
+  padding: 30px;
+  margin-top:50px;
+  background-image: url(../images/f2.jpg);
+  /*background: rgba(0, 0, 0, 0.5);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+.header background-image {
+  opacity: 2;
+ }
+ .header h1{
+   font-size: 40px;
+   font-weight: 700;
+   margin-top:30px;
+ }
+ .header p{
+   margin-top:20px;
+   text-align: justify;
+   text-indent: 5em;
+ }
+ .header .btn {
+   margin-top:40px;
+   margin-right: 20px;
+ }
+/*services*/
+.services{
+  padding:65px 0 60px;
+  text-align: center;
+  background-color: white;
+}
+.services h1,
+.services h3{
+  color:#4c4c4c;
+  margin:10px 0 20px;
+}
+.services p{
+  color: #737373;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.services i{
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 25px 20px;
+  border-radius: 50%;
+  background-color: #6699cc;
+}
+.team{
+  padding: 50px 50px 80px;
+  text-align: center;
+  background-color: white;
+}
+.team p{
+  color: #737373;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.team img{
+height: 150px;
+width: 150px;
+margin-top: 60px;
+}
+.team h1{
+  color:#4c4c4c;
+  margin:10px 0 20px;
+}
+.col-half-offset{
+    margin-left:3.166666667%
+}
+.team i{
+  height: 30px;
+  width: 30px;
+  padding:5px;
+  font-size: 17px;
+  border-radius: 50%;
+  background-color: black;
+  color:white;
+}
+.team a:hover i{
+  background-color: #709963;
+}
+/*contacts*/
+.contact{
+  padding: 10px 0 80px;
+  text-align: center;
+  background-color:white;
+}
+.contact p{
+  color: #737373;
+  padding-bottom: 80px;
+}
+.contact h1{
+  color:#4c4c4c;
+  margin:20px 0 20px;
+}
+.contact .input-group{
+  margin-bottom: 25px;
+}
+.contact .form-control{
+  border-radius: 0 !important;
+}
+.contact span{
+  border-radius: 0 !important;
+}
+.contact btn{
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08080;
+  color: #fff;
+}
+.contact .btn:hover{
+  background-color: #a85959 !important;
+  color: #fff !important;
+}
